@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./c.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <header>
+    <!--<div class="header-container">
+            
+            <nav>
+                <ul>
+                    <li><a href="home/home.html">Home</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Find Agent</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+        </div>-->
+
+
+        <div class="logo">
+            <img src="logo.png">
+          </div>
+          <nav>
+            <ul>
+            
+              <li><a href="home/home.html">Home</a></li>
+              <li><a href="#">Property</a></li>
+              <li><a href="#">Payment</a></li>
+              <li><a href="../c.html">Contact Us</a></li>
+              <li><a href="#">Find Agant</a></li>
+              
+            </ul>
+          </nav>
+          <div class="login">
+            <button>Login/Register</button>
+          </div>
+
+    </header>
+
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="process_contact_form.php" method="POST">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="youtube.png" alt="YouTube"></a>
+            </div>
+            <div class="subscribe">
+                <p>Subscribe to our newsletter:</p>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+            <div class="about-us">
+                <li><a href="#">About us</a></li><br>
+                <li><a href="#">FAQ</a></li>
+                  <p>Ceylon Property Management </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+
